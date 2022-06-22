@@ -1,0 +1,51 @@
+/*EXTERNAL*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap');
+
+body {
+    background-image: url(RLI365Clogin_words.png);
+    vertical-align: top;
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+@media screen and (max-width: 780px) {
+    body {
+        background-image: url(RLI365Clogin_empty.png);
+        vertical-align: top;
+        margin-top: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+/*positioning*/
+.col {
+    text-align: center;
+    padding-left: 3%; 
+    padding-right: 3%;
+}
+
+.logo {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.login-bckgr {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login-row {
+    width: 40%;
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-space {
+    margin-top: 30px;
+}
